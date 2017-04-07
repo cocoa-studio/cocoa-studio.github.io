@@ -6,6 +6,7 @@ This is our company profile website.
 We use [gulp](https://github.com/gulpjs/gulp) and [browser-sync](https://github.com/BrowserSync/browser-sync) to make development easier. To start developing you need to install dev dependencies first :
 ```
 npm install
+npm install -g gulp
 ```
 After installing, run this command :
 ```
