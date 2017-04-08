@@ -12,6 +12,7 @@ gulp.task('serve', ['less'], function () {
   });
 
   gulp.watch('public/css/*.less', ['less']);
+  gulp.watch('public/js/*.js').on('change', browserSync.reload);
   gulp.watch("public/*.html").on('change', browserSync.reload);
 });
 
